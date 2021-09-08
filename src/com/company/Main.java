@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
       Player1 p = new Player1("Ravindu Sathsara", "M416", 100);
+      Player2 p2 = new Player2("Ashan Chamika ", "AWM",100,true);
+
 
       p.damageByGun1();
       p.damageByGun1();
@@ -13,6 +15,8 @@ public class Main {
       p.damageByGun2();
       p.heal();
 
+
+      p2.damageByGun2();
 
 
     }
