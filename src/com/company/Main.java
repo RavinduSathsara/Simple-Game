@@ -17,6 +17,8 @@ public class Main {
 
 
       p2.damageByGun2();
+      p2.damageByGun2();
+      p2.damageByGun2();
 
 
     }
